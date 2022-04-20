@@ -1,0 +1,96 @@
+#
+#   Ron D Bentley, Stafford, UK
+#   April 2021
+#   SIPO8 v1-00
+#
+#   This example and code is in the public domain and
+#   may be used without restriction and without warranty
+#
+
+# class
+SIPO8	KEYWORD1
+
+# macros...    
+pins_per_SIPO	LITERAL1 
+create_bank_failure	LITERAL1 
+pin_read_failure	LITERAL1 
+pin_invert_failure	LITERAL1 
+pin_set_failure	LITERAL1 
+bank_not_found	LITERAL1 
+SIPO_not_found	LITERAL1 
+timer0	LITERAL1 
+timer1	LITERAL1 
+timer2	LITERAL1 
+timer3	LITERAL1 
+timer4	LITERAL1 
+timer5	LITERAL1 
+timer6	LITERAL1 
+timer7	LITERAL1 
+elapsed	LITERAL1 
+not_elapsed	LITERAL1 
+active	LITERAL1 
+not_active	LITERAL1 
+
+# user accessible variables...
+max_pins	KEYWORD2
+num_active_pins	KEYWORD2
+num_pin_status_bytes	KEYWORD2
+num_banks	KEYWORD2
+max_SIPOs	KEYWORD2
+bank_SIPO_count	KEYWORD2
+max_timers	KEYWORD2
+bank_data_pin	KEYWORD2
+bank_clock_pin	KEYWORD2
+bank_latch_pin	KEYWORD2
+bank_num_SIPOs	KEYWORD2
+bank_low_pin	KEYWORD2
+bank_high_pin	KEYWORD2
+SIPO_banks	KEYWORD2
+pin_status_bytes	KEYWORD2
+timer_status	KEYWORD2
+start_time	KEYWORD2
+timers	KEYWORD2
+
+# functions...
+create_bank	KEYWORD2
+set_all_array_pins	KEYWORD2
+invert_all_array_pins	KEYWORD2
+set_array_pin	KEYWORD2
+invert_array_pin	KEYWORD2
+read_array_pin	KEYWORD2
+set_banks	KEYWORD2
+set_banks	KEYWORD2
+set_bank	KEYWORD2
+invert_banks	KEYWORD2
+invert_banks	KEYWORD2
+invert_bank	KEYWORD2
+set_bank_SIPO	KEYWORD2
+invert_bank_SIPO	KEYWORD2
+read_bank_SIPO	KEYWORD2
+set_bank_pin	KEYWORD2
+invert_bank_pin	KEYWORD2
+read_bank_pin	KEYWORD2
+get_bank_from_pin	KEYWORD2
+num_pins_in_bank	KEYWORD2
+xfer_banks	KEYWORD2
+xfer_banks	KEYWORD2
+xfer_bank	KEYWORD2
+xfer_array	KEYWORD2
+print_pin_statuses	KEYWORD2
+print_SIPO_data	KEYWORD2
+SIPO8_start_timer	KEYWORD2
+SIPO8_stop_timer	KEYWORD2
+SIPO8_timer_elapsed	KEYWORD2
+
+# private variables
+_max_pins	KEYWORD2
+_num_active_pins	KEYWORD2
+ _num_pin_status_bytes	KEYWORD2
+_max_SIPOs	KEYWORD2
+ _bank_SIPO_count	KEYWORD2
+_next_bank	KEYWORD2
+_max_timers	KEYWORD2
+
+# private functions...
+SIPO_lib_exit	KEYWORD2
+shift_out_bank	KEYWORD2
