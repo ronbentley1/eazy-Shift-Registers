@@ -1,4 +1,4 @@
-# eazy-Shift-Registers
+# eazy-Shift-Registers - the ez_SIPO8_lib Library
 A library to support multiple shift registers, SIPOs, as a continuous array and in banks of registers.
 
 
