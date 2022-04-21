@@ -66,3 +66,11 @@ In summary, the key features of the SIPO8 library are:
 - the ability to interleave different banks of SIPO ICs using the same 3-wire interface
 - any number of user definable timers
 - comprehensive reporting of array pool/bank status and associated parameters
+- comprehensive documentations - User Guide, Crib Sheet, example sketches and tuorials
+
+# And Finally
+
+Hopefully, at this point, you will know if the SIPO8 library is worthy of further exploration. Certainly, if you have SIPO IC projects in the pipeline, as a hobbyist or as a professional, then the library will be very helpful in developing these.
+
+<END>
+  
