@@ -74,9 +74,12 @@ Hopefully, at this point, you will know if the SIPO8 library is worthy of furthe
 
 See these Arduino Project Hub articles for further information and guidance:
 
-ez_SIPO8_lib Library: https://create.arduino.cc/projecthub/ronbentley1/command-control-of-multiple-serial-in-parallel-out-ics-3e0b1a?ref=user&ref_id=1455180&offset=18
+ez_SIPO8_lib Library:
+https://create.arduino.cc/projecthub/ronbentley1/command-control-of-multiple-serial-in-parallel-out-ics-3e0b1a?ref=user&ref_id=1455180&offset=18
 
-ez
+ez_SIPO8_lib Tutorials:
+https://create.arduino.cc/projecthub/ronbentley1/shift-registers-ez-sipo8-lib-library-tutorials-e7863c?ref=user&ref_id=1455180&offset=8
+
 
 <END>
   
