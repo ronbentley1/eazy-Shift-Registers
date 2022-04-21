@@ -72,5 +72,11 @@ In summary, the key features of the SIPO8 library are:
 
 Hopefully, at this point, you will know if the SIPO8 library is worthy of further exploration. Certainly, if you have SIPO IC projects in the pipeline, as a hobbyist or as a professional, then the library will be very helpful in developing these.
 
+See these Arduino Project Hub articles for further information and guidance:
+
+ez_SIPO8_lib Library: https://create.arduino.cc/projecthub/ronbentley1/command-control-of-multiple-serial-in-parallel-out-ics-3e0b1a?ref=user&ref_id=1455180&offset=18
+
+ez
+
 <END>
   
