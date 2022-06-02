@@ -44,9 +44,11 @@ SIPO8::SIPO8(uint8_t max_SIPO_ICs, uint8_t Max_timers ) {
     pin_status_bytes[pin_status_byte] = 0;
   }
   // create timer struct(ure) of required size
-  timers = (timer_control *) malloc(sizeof(timer_control) * Max_timers);
-  if (timers == NULL) {
-    SIPO_lib_exit(2);
+  if (Max_timers > 0){
+    timers = (timer_control *) malloc(sizeof(timer_control) * Max_timers);
+    if (timers == NULL) {
+      SIPO_lib_exit(2);
+   }
   }
   _max_timers = Max_timers;
   max_timers  = Max_timers;
